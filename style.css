@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px 80px;
+  background: rgb(1, 1, 45);
+}
+
+header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header1 {
+  align-items: center;
+  display: flex;
+  gap: 50px;
+}
+
+.header1 p {
+  font-weight: 600;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  position: relative;
+}
+
+li {
+  list-style: none;
+  width: 78px;
+  height: 20px;
+  background-color: rgba(3, 3, 3, 1);
+  left: 323px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+ul {
+  display: none;
+  font-weight: 400;
+
+  text-align: center;
+  padding: 10px 10px;
+  width: 99px;
+
+  border-radius: 10px;
+  background: rgba(35, 32, 40, 1);
+  box-shadow: 0px 0px 11px 0px rgba(255, 255, 255, 1);
+  font-family: Poppins;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 10px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  position: absolute;
+}
+
+.img {
+  position: absolute;
+  top: -3px;
+  right: -30px;
+}
+
+.tablitsa {
+  position: relative;
+}
+
+.tablitsa:hover ul {
+  display: block;
+}
+
+.tablitsa p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+li:hover {
+  background-color: rgba(191, 175, 242, 1);
+}
+
+.header2 {
+  align-items: center;
+  display: flex;
+  gap: 50px;
+}
+
+.header2 p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: right;
+}
+
+button {
+  background-color: rgba(191, 175, 242, 1);
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 175px;
+  height: 50px;
+  angle: 0 deg;
+  opacity: 1;
+  border-radius: 15px;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+main {
+  color: white;
+  margin-top: 200px;
+
+  display: flex;
+  gap: 30px;
+}
+
+.card-ichi {
+  margin-top: 250px;
+  position: relative;
+  padding: 20px;
+  width: 325px;
+  height: 240px;
+  angle: 0 deg;
+  opacity: 1;
+  border-radius: 32px;
+  background: rgba(35, 32, 40, 1);
+}
+
+img {
+  position: absolute;
+  top: -280px;
+  right: 30px;
+  width: 248;
+  height: 320;
+  angle: -180 deg;
+  opacity: 1;
+}
+
+.card-ichi p {
+  width: 293px;
+  height: 38px;
+  angle: 0 deg;
+  opacity: 1;
+
+  margin-top: 20px;
+  font-family: Outfit;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 32px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.card-ichi .matn {
+  font-family: Outfit;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.card-ichi .matn2 {
+  font-family: Outfit;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.card-ichi .matn3 {
+  font-family: Outfit;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.card-ichi .matn4 {
+  font-family: Outfit;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.card-ichi:hover {
+  background-color: aliceblue;
+  color: #000;
+}
+
+footer {
+  text-align: center;
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+footer p {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 16px;
+  leading-trim: NONE;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-offset: 0%;
+  text-decoration-thickness: 0%;
+}
